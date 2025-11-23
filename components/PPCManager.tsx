@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
-import { 
 import { generatePPCKeywords, generatePPCAdCopy, generateMarketingImage, generateMarketingVideo, ensurePaidKey } from '../services/geminiService';
-
+import { 
 TrendingUp, DollarSign, MousePointerClick, Target, 
 Search, ArrowUp, ArrowDown, 
 Plus, X, Rocket, BrainCircuit, LayoutTemplate, Users, RefreshCw, Loader2, 
@@ -818,4 +817,4 @@ return (
 );
 };
 
-export default PPCManager;</div></select></button></div>
+export default PPCManager;

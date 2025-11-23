@@ -1,7 +1,10 @@
 import React from "react";
+import { Strategy, AppView } from '../types';
 
 type CampaignsProps = {
-  // add props here if needed in the future
+  strategies?: Strategy[];
+  setStrategies?: React.Dispatch<React.SetStateAction<Strategy[]>>;
+  onNavigate?: (view: AppView) => void;
 };
 
 export default function Campaigns(_: CampaignsProps): React.JSX.Element {

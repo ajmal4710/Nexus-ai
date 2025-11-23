@@ -251,4 +251,4 @@ const VideoStudio: React.FC<VideoStudioProps> = ({ onActivity }) => {
     );
 };
 
-export default VideoStudio;</div>
+export default VideoStudio;

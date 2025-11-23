@@ -1,13 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-const App: React.FC = () => {
-    return (
-        <div>
-            Hello from App
-        </div>
-    );
-};
+import './src/index.css';
+import App from './App';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {

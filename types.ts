@@ -24,8 +24,13 @@ export enum CopyTone {
 // Strategy Interface
 export interface Strategy {
   id: string;
-  name: string;
+  businessName?: string;
+  name?: string;
+  goal?: string;
+  date?: string;
   status: 'Active' | 'Draft' | 'Paused';
+  mode?: 'simple' | 'advanced';
+  content?: string;
   description?: string;
   createdAt?: Date;
   updatedAt?: Date;
@@ -33,8 +38,11 @@ export interface Strategy {
 
 // Post Interface
 export interface Post {
-  id: string;
+  id: string | number;
   content: string;
+  date?: string;
+  time?: string;
+  platforms?: string[];
   status: 'Scheduled' | 'Published' | 'Draft';
   platform?: string;
   scheduledAt?: Date;
@@ -45,9 +53,14 @@ export interface Post {
 export interface SocialAccount {
   id: string;
   platform: string;
-  username: string;
+  name?: string;
+  username?: string;
+  handle?: string;
+  avatar?: string;
   connected: boolean;
   followers?: number;
+  brandColor?: string;
+  permissions?: string[];
 }
 
 // Activity Stats Interface

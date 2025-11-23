@@ -6,10 +6,10 @@ import CopyStudio from './components/CopyStudio';
 import ImageStudio from './components/ImageStudio';
 import VideoStudio from './components/VideoStudio';
 import Campaigns from './components/Campaigns';
-import BrandKit from './components/BrandKit';
+import BrandKit from './components/Brandkit';
 import PPCManager from './components/PPCManager';
 import SocialManager from './components/SocialManager';
-import Settings from './components/Settings';
+import Settings from './components/Setting';
 import { AppView, Strategy, Post, SocialAccount, ActivityStats } from './types';
 
 // --- Initial Mock Data (Moved from Child Components) ---
