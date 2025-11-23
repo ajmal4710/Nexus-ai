@@ -31,7 +31,6 @@ const CopyStudio: React.FC<CopyStudioProps> = ({ onActivity }) => {
             setLoading(false);
         }
     };
-
     const copyToClipboard = () => {
         navigator.clipboard.writeText(generatedCopy);
         setCopied(true);
